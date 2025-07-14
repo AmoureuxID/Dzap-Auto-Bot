@@ -65,8 +65,7 @@ npm install
 Create a `.env` file in the project's root directory. This file will hold your wallet's private key.
 
 ```bash
-# In your terminal, run this command (replace with your private key)
-echo PRIVATE_KEY=0xYourPrivateKeyGoesHere > .env
+PRIVATE_KEY=0xYourPrivateKey....
 ```
 
 #### b. Bot Settings (`config.js` file)
