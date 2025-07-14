@@ -1,4 +1,4 @@
-# Dzap Auto Bridge Bot
+# Dzap Auto Bot
 
 A Node.js bot designed to automate the process of bridging ETH tokens between the Sepolia and Arbitrum Sepolia networks using the dzap.io platform. Built for efficiency and ease of use.
 
