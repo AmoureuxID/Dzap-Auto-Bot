@@ -31,7 +31,7 @@ A Node.js bot designed to automate the process of bridging ETH tokens between th
 
 ### 1. Register
 
-🔗 [Register Here](https://app.dzap.io/?referral=cee267c1)
+🔗 Register [app.dzap.io](https://app.dzap.io/?referral=cee267c1)
 
 ### 2. Join the AmoureuxID Community
 
