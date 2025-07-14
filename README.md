@@ -29,12 +29,9 @@ A Node.js bot designed to automate the process of bridging ETH tokens between th
 
 ## 🏁 Getting Started
 
-### 1. Get RPC URLs
+### 1. Register
 
-You will need RPC URLs for both testnet networks. You can get them for free from providers like Alchemy or Infura.
-
-- Sepolia RPC URL  
-- Arbitrum Sepolia RPC URL  
+🔗 [Register Here](https://app.dzap.io/?referral=cee267c1)
 
 ### 2. Join the AmoureuxID Community
 
