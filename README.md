@@ -92,7 +92,7 @@ export const config = {
 Start the bot with the command:
 
 ```bash
-node bot.js
+node index.js
 ```
 
 **Bot workflow in the terminal:**
@@ -109,7 +109,7 @@ node bot.js
 
 ```
 Dzap-Auto-Bot/
-├── bot.js            # The main bot script
+├── index.js            # The main bot script
 ├── config.js         # The bot's control panel and settings
 ├── .env              # File for storing your private key (DO NOT COMMIT)
 ├── package.json      # Project dependencies
