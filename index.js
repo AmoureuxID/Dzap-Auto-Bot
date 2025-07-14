@@ -92,7 +92,7 @@ async function runProcess() {
                 console.log(`▶ [${i}/${config.ethToArbCount}] Bridging ${config.bridgeAmount} ETH...`);
                 const link = await performBridge('sepolia', 'arbitrum', config.bridgeAmount, sepoliaWallet);
                 console.log(`    ✅ ${link}`);
-                console.log(`    ${colors.green('✅')}Claim 5 Points`);
+                console.log(`    ${colors.green('✅')} Claim 5 Points`);
             } catch (error) {
                 console.error(`    ❌ [${i}/${config.ethToArbCount}] Failed: ${error.message.substring(0, 120)}...`);
             }
@@ -110,7 +110,7 @@ async function runProcess() {
                 console.log(`▶ [${i}/${config.arbToEthCount}] Bridging ${config.bridgeAmount} ETH...`);
                 const link = await performBridge('arbitrum', 'sepolia', config.bridgeAmount, arbitrumWallet);
                 console.log(`    ✅ ${link}`);
-                console.log(`    ${colors.green('✅')}Claim 5 Points`);
+                console.log(`    ${colors.green('✅')} Claim 5 Points`);
             } catch (error) {
                 console.error(`    ❌ [${i}/${config.arbToEthCount}] Failed: ${error.message.substring(0, 120)}...`);
             }
