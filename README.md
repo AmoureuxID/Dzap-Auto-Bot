@@ -1,4 +1,4 @@
-# Dzap Auto Bridge Bot
+# Dzap Auto Bot
 
 A Node.js bot designed to automate the process of bridging ETH tokens between the Sepolia and Arbitrum Sepolia networks using the dzap.io platform. Built for efficiency and ease of use.
 
@@ -65,8 +65,7 @@ npm install
 Create a `.env` file in the project's root directory. This file will hold your wallet's private key.
 
 ```bash
-# In your terminal, run this command (replace with your private key)
-echo PRIVATE_KEY=0xYourPrivateKeyGoesHere > .env
+PRIVATE_KEY=0xYourPrivateKey....
 ```
 
 #### b. Bot Settings (`config.js` file)
@@ -93,7 +92,7 @@ export const config = {
 Start the bot with the command:
 
 ```bash
-node bot.js
+node index.js
 ```
 
 **Bot workflow in the terminal:**
@@ -110,7 +109,7 @@ node bot.js
 
 ```
 Dzap-Auto-Bot/
-├── bot.js            # The main bot script
+├── index.js            # The main bot script
 ├── config.js         # The bot's control panel and settings
 ├── .env              # File for storing your private key (DO NOT COMMIT)
 ├── package.json      # Project dependencies
