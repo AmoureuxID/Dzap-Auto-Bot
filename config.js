@@ -1,6 +1,6 @@
 export const config = {
-    sepoliaRpcUrl: "https://eth-sepolia.g.alchemy.com/v2/Onk45xXyTWVFFNDbJvP5R",
-    arbitrumSepoliaRpcUrl: "https://arb-sepolia.g.alchemy.com/v2/Onk45xXyTWVFFNDbJvP5R",
+sepoliaRpcUrl: "YOUR_SEPOLIA_RPC",
+arbitrumSepoliaRpcUrl: "YOUR_ARB_SEPOLIA_RPC",
 	
     ethToArbCount: 10,
     arbToEthCount: 5,
